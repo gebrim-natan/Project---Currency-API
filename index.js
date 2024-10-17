@@ -181,7 +181,7 @@
 var data;
 async function main() {
   const rawData = await fetch(
-    `http://data.fixer.io/api/latest?access_key=111d3499d44d6ca581f7fe185d54b68b`
+    `https://data.fixer.io/api/latest?access_key=111d3499d44d6ca581f7fe185d54b68b`
   );
   data = await rawData.json();
   //   const curData = data;
